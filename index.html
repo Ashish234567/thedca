@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Desire Campus Academy is a place for quality education and holistic development. Explore our courses and campus today!" />
+    <meta name="keywords" content="The Desire Campus Academy, Courses, Education, Coaching, Barauni, Begusarai" />
+    <link rel="stylesheet" href="style.css" />
+    <title>THE DESIRE CAMPUS ACADEMY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" alt="The Desire Campus Academy Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#course">COURSE</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 style="color: cyan;">THE DESIRE CAMPUS ACADEMY</h1>
+            <p style="color:whitesmoke;">
+                "The Desire Campus Academy: Where Dreams Turn into Achievements. Empowering Students for a Brighter Future."
+            </p>
+            <a href="images/Desire campus.mp4" class="hero-btn">Visit us know more..</a>
+        </div>
+    </section>
+
+    <!-- COURSE -->
+    <section class="course">
+        <div id ="course">
+        <h1>Courses We Offer</h1>
+        <p style="color: red;"><b>Tailored Programs to Unlock Your Potential and Achieve Success.</b></p>
+        <div class="row">
+            <div class="course-col">
+                <h3>PHYSICS</h3>
+                <p>A comprehensive coaching program for PHYSICS aspirants. Join us for expert coaching and guidance!.</p>
+            </div>
+            <div class="course-col">
+                <h3>CHEMISTRY</h3>
+                <p>A comprehensive coaching program for CHEMISTRY aspirants. Join us for expert coaching and guidance!.</p>
+            </div>
+            <div class="course-col">
+                <h3>MATHEMATICS</h3>
+                <p>A comprehensive coaching program for MATHEMATICS aspirants. Join us for expert coaching and guidance!.</p>
+            </div>
+            <div class="course-col">
+                <h3>ENGLISH</h3>
+                <p>A comprehensive coaching program for ENGLISH aspirants. Join us for expert coaching and guidance!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>BIOLOGY</h3>
+                <p>A comprehensive coaching program for BIOLOGY aspirants. Join us for expert coaching and guidance!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>HINDI</h3>
+                <p>A comprehensive coaching program for HINDI aspirants. Join us for expert coaching and guidance!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>ART'S</h3>
+                <p>A comprehensive coaching program for ART'S aspirants. Join us for expert coaching and guidance!</p>
+            </div>
+            <div class="course-col">
+                <h3>9th and 10th</h3>
+                <p>A comprehensive coaching program for class 9th and 10th (BSEB & CBSE) aspirants. Join us for expert coaching and guidance!</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Campus -->
+    <section class="campus">
+        <h1>Our Vision</h1>
+        <p style="color:red;"><b> Minds, Shaping Futures – Unlock Your Potential with Expert Coaching.</b></p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/sujeet.jpg" alt="Campus image near RKC+2 School">
+                <p style="text-decoration-color: black;font-size: large;">Founder<h5>
+
+                    Founded in February 2020, our institute has been dedicated to empowering students to achieve their academic and professional goals. The vision and leadership of our founder, who is currently working as a CCTC in Indian Railways, have been the driving force behind the institute's success. With a deep commitment to excellence and a passion for education, he has shaped the institute into a place where students not only gain knowledge but also develop the skills necessary for a bright future.</h5></p>
+                <div class="layer">
+                    <h3>NEAR RKC+2 SCHOOL BEHIND MALL MART Barauni,Begusarai 851112</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/sanjeet.png" alt="Campus image opposite Central Bank">
+                <p style="text-decoration-color: black;font-size: large;text-align:center;margin-left: 30%;">Co-Founder <h5>
+
+                    Our institute, established in February 2020, was co-founded with a commitment to delivering exceptional education and fostering student success. The co-founder, a proud alumnus of NSIT Chennai (CITS), currently serves as a dedicated Physics teacher. With a strong foundation in both theoretical and practical knowledge, he brings his expertise and passion for teaching to inspire and guide students toward academic excellence and personal growth. His experience and dedication continue to play a pivotal role in shaping the institute’s mission of providing quality education.</h5></p>
+                <div class="layer">
+                    <h3>OP CENTRAL BANK RAJENDRA ROAD BARAUNI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p style="color: red;"><b>"Comprehensive Learning with State-of-the-Art Facilities for Theory, Practical, and Test Excellence – 
+            Your Success Starts Here!"</b></p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/theory.jpg" alt="Theory Session image">
+                <h3>Theory Session</h3>
+                <p>Our Theory Sessions are designed to provide a strong foundation of knowledge, combining expert instruction with interactive learning. Each session is carefully crafted to simplify complex concepts, ensuring that students grasp the fundamentals with ease. Through a structured approach, we emphasize clarity, engagement, and in-depth understanding, enabling students to not only excel in exams but also apply their knowledge practically.<br><br>
+                     Our experienced educators foster a supportive learning environment, encouraging active participation and critical thinking, making every theory session a valuable step towards mastering the subject.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/practical.jpg" alt="Practical(Lab) Session image">
+                <h3>Practical(Lab) Session</h3>
+                <p>Our Practical (Lab) Sessions offer hands-on experience that complements theoretical learning, allowing students to apply their knowledge in real-world scenarios. Equipped with state-of-the-art tools and resources, these sessions focus on enhancing practical skills and building confidence in a controlled, supportive environment. Under the guidance of expert instructors, students engage in experiments, simulations, and projects that reinforce their understanding and foster critical problem-solving abilities.<br> <br>These lab sessions are designed to bridge the gap between theory and practice, ensuring students gain a comprehensive and well-rounded education.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/test.jpg" alt="Test & Cultural fest image">
+                <h3>Test & Cultural fest</h3>
+                <p>Our Test & Cultural Fest is an exciting and dynamic blend of academic assessment and vibrant cultural celebration. The test sessions are meticulously designed to evaluate and enhance students' knowledge, helping them track their progress while refining their skills under real exam conditions. At the same time, the Cultural Fest provides a platform for students to showcase their talents, creativity, and teamwork through various cultural events and performances. <br><br>This unique combination fosters both intellectual growth and personal development, creating a well-rounded experience that prepares students for success both academically and socially.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p style="color: red;"><b>institute transformed my potential into success, guiding me every step of the way!</b> </p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/stu1.jpg" alt="Student">
+                <div>
+                    <p>Harsh Kumar, a proud member of our 2024 pass-out batch, shares his experience: "Joining this coaching institute was one of the best decisions of my academic journey. The guidance and support I received throughout my preparation helped me not only grasp difficult concepts but also boost my confidence. The faculty's dedication and the personalized attention I got played a major role in my success. I am truly grateful for this enriching experience.</p>
+                    <h3>Harsh Kumar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/stu2.jpg" alt="Testimonial">
+                <div>
+                    <p>Rishi kumar gupta , a proud member of our 2024 pass-out batch, shares her experience: "Being part of this coaching institute was a life-changing experience. The personalized approach, expert guidance, and comprehensive study material helped me achieve my best potential. The faculty not only made complex topics easier to understand but also motivated me to push beyond my limits. Thanks to the structured curriculum and supportive environment, I passed with excellent grades, and I’m now ready to face the future with confidence. I’m incredibly grateful for all the opportunities and knowledge I gained here.</p>
+                    <h3>Rishi kumar gupta</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Ready to Transform Your Future?<br />Contact Us Today and Start Your Journey to Success!</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div id="about">
+        <h4>About Us</h4>
+        <p style="color:black;"><b>Founded in February 2020, our institute is dedicated to providing high-quality coaching that empowers students to achieve academic excellence and personal growth.<b style="color: red;"> Under the visionary leadership of S.K. Mishra,</b> we have consistently focused on delivering exceptional education, blending theoretical knowledge with practical insights. Our mission is to inspire and guide students to reach their full potential, equipped with the skills and confidence to succeed in their chosen fields. With state-of-the-art facilities, expert instructors, and a commitment to excellence, we are shaping the leaders of tomorrow.</b></p>
+    </div>
+        <!-- Address -->
+        <div class="address">
+            <h3>Our Campus Location</h3>
+           <b> <p>Add.1- Near RKC+2 School, Behind Mall Mart, Barauni, Begusarai 851112</p>
+            <p>Add.2- Opposite Central Bank, Rajendra Road, Barauni</p></b>
+            <p><strong>Phone:</strong> <span class="phone-number">+91 9471914296</span></p>
+        </div>
+
+        <div class="map-address">
+            <div id="map" style="width: 100%; height: 300px;"></div>
+        </div>
+
+        <div class="icons">
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/er_ashish_58/"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/share/9uQv85L8F8jTyfo3/"><i class="fa fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC18I9w63FSeiwMXz3bR8a5Q"><i class="fa fa-youtube-play"></i></a>
+              </li>
+              <a href="https://wa.me/qr/WS3C5GNJGNPRM1" target="_blank" class="whatsapp-icon">
+                <i class="fa fa-whatsapp"></i> </a>
+            </ul>
+          </div>
+          
+        
+        <footer>
+            <p>&copy; 2024 The Dc Academy. All Rights Reserved || Privacy Policy   Disclaimer   Terms of Use.</p>
+            <p>&copy; Developed by Ashish</p>
+        </footer>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function ShowMenu() {
+            navLinks.style.right = "0";
+        }
+        function HideMenu() {
+            navLinks.style.right = "-300px";
+        }
+
+        // Map Initialization
+        var map = L.map('map').setView([25.463042744459873, 85.99260805095346], 14); // Latitude and Longitude of your campus
+
+        // OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Adding a marker to the map
+        L.marker([25.463042744459873, 85.99260805095346]).addTo(map)
+            .bindPopup('<b>THE DC ACADEMY</b><br>Near RKC+2 School, Behind Mall Mart, Barauni, Begusarai 851112.')
+            .openPopup();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | THE DESIRE CAMPUS ACADEMY</title>
+    <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+
+</head>
+<body>
+ 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+    
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <div class="map-container">
+                <div id="map"><div id="map" style="width: 100%; height: 400px;"></div>
+
+                <script>
+                  var map = L.map('map').setView([25.463042744459873, 85.99260805095346], 14); // Latitude and Longitude of your location
+                
+                  // Add OpenStreetMap tile layer
+                  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  }).addTo(map);
+                
+                  // Add a marker
+                  L.marker([25.463042744459873, 85.99260805095346]).addTo(map)
+                    .bindPopup('<b>Our Campus</b><br>Near Rkc +2 high school behind mall mart barauni 851112.')
+                    .openPopup();
+                </script>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Dc Academy. All Rights Reserved.</p><br>
+        <p>&copy; Developed by Ashish</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
